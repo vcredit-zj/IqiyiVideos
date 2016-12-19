@@ -19,8 +19,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="IqiyiVideos_main" target="1.5" />
-      <module name="IqiyiVideos_test" target="1.5" />
+      <module name="downloader_main" target="1.7" />
+      <module name="downloader_test" target="1.7" />
+      <module name="IqiyiVideos_main" target="1.7" />
+      <module name="IqiyiVideos_test" target="1.7" />
       <module name="OnePiece_main" target="1.5" />
       <module name="OnePiece_test" target="1.5" />
     </bytecodeTargetLevel>

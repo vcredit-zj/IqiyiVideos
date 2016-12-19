@@ -11,6 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/OnePiece" />
+            <option value="$PROJECT_DIR$/downloader" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

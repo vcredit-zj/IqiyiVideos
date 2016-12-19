@@ -32,10 +32,10 @@ public class TestOnepiece {
 
         StringBuilder contents = new StringBuilder();
         for (OnePiece.DataBean.VlistBean liVlistBean: vlist) {
-            contents.append(liVlistBean.getShortTitle()).append(":").append(liVlistBean.getVurl()).append("\n");
+            contents.append(liVlistBean.getShortTitle()).append(">").append(liVlistBean.getVurl()).append("\n");
         }
 
-        FileOutputStream fos = new FileOutputStream(fileName + ".txt");
+        FileOutputStream fos = new FileOutputStream(fileName + ".csv");
         fos.write(contents.toString().getBytes());
         fos.close();
     }
